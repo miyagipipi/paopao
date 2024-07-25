@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 backend/venv
+.vscode
 
 # Editor directories and files
 .vscode/*
@@ -24,3 +25,4 @@ backend/venv
 *.sln
 *.sw?
 *.pyc
+*.txt
