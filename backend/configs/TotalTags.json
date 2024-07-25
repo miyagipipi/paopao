@@ -1,0 +1,68 @@
+[
+    {
+        "text": "部门",
+        "children":
+        [
+            {
+                "text": "运营"
+            },
+            {
+                "text": "api"
+            },
+            {
+                "text": "社区"
+            },
+            {
+                "text": "策划"
+            },
+            {
+                "text": "开发"
+            },
+            {
+                "text": "测试"
+            },
+            {
+                "text": "其他"
+            }
+        ]
+    },
+    {
+        "text": "项目",
+        "children":
+        [
+            {
+                "text": "BOB"
+            },
+            {
+                "text": "WG"
+            },
+            {
+                "text": "WOD"
+            },
+            {
+                "text": "GFF"
+            },
+            {
+                "text": "TK"
+            },
+            {
+                "text": "LL"
+            }
+        ]
+    },
+    {
+        "text": "活动",
+        "children":
+        [
+            {
+                "text": "AVA"
+            },
+            {
+                "text": "KVK"
+            },
+            {
+                "text": "GVG"
+            }
+        ]
+    }
+]

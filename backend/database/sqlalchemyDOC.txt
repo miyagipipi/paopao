@@ -1,0 +1,7 @@
+session.get(ORM, id)
+    session.get(User, 4): 获取User表中，主键为4的记录，如果没有则发出一个SELECT
+    对应 db.session.get_or_404(entity, ident, description=None)
+        entity: ORM
+        ident：主键
+        description：返回404时的message
+
