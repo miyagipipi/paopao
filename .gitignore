@@ -27,3 +27,4 @@ backend/venv
 *.pyc
 *.txt
 backend/static/avatars/*
+!backend/static/avatars/.gitkeep
