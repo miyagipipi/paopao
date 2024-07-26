@@ -8,5 +8,9 @@
 vue3 + vant4 + element plus + vue-router + pinia + vite + axios + vue-virtual-scrolling + vue-infinite-scroll
 ### 后端
 python3 + flask + flask-restx + SQLAlchemy + APScheduler + Flask-Session + MySQL + redis
-## 网页
+## 体验网页
 [泡泡活动匹配系统](http://110.41.66.229:5173/user/login)
+## 如何使用
+- git clone https://github.com/miyagipipi/paopao.git
+- 命令行执行 npm install 安装前端相关的 node_modules
+- 在 ./backend 目录下找到 requirements.txt 文件，执行 pip install -r requirements.txt 安装 python 相关的依赖包（建议使用虚拟环境安装）。
