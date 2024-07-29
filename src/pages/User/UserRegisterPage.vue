@@ -48,8 +48,8 @@ let Rules = ref({
     description: [{ required: true, message: '请填写队伍描述' }],
     userAccount: [{ required: true, message: '请填写用户名' }],
     userPassword: [{ required: true, message: '请填写密码' }],
-    phone: [{ required: true, message: '请填写密码' }],
-    email: [{ required: true, message: '请填写密码' }],
+    phone: [{ required: true, message: '请填写手机号' }],
+    email: [{ required: true, message: '请填写邮箱' }],
 })
 
 const initFormData = {
