@@ -8,10 +8,13 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ElDatePicker: typeof import('element-plus/es')['ElDatePicker']
+    ElOption: typeof import('element-plus/es')['ElOption']
+    ElSelect: typeof import('element-plus/es')['ElSelect']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TagEdit: typeof import('./src/components/TagEdit.vue')['default']
     TeamCardList: typeof import('./src/components/TeamCardList.vue')['default']
+    TeamCardListTest: typeof import('./src/components/TeamCardListTest.vue')['default']
     UserCardList: typeof import('./src/components/UserCardList.vue')['default']
     VanButton: typeof import('vant/es')['Button']
     VanCard: typeof import('vant/es')['Card']

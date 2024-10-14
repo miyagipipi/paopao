@@ -27,8 +27,8 @@ def createRedisJobClient():
 def InitRedisDB(app):
     app.config['SECRET_KEY'] = SECRET_KEY
 
-    app.config['SESSION_COOKIE_SECURE'] = False
-    app.config['SESSION_COOKIE_HTTPONLY'] = True
+    app.config['SESSION_COOKIE_SECURE'] = True
+    app.config['SESSION_COOKIE_HTTPONLY'] = False
     app.config['SESSION_COOKIE_SAMESITE'] = 'None'
 
     app.config['SESSION_TYPE'] = 'redis'

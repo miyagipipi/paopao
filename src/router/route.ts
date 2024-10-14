@@ -11,6 +11,7 @@ import UserPage from '@/pages/User/UserPage.vue'
 import TeamRoomPage from '@/pages/Team/TeamRoomPage.vue'
 import UserRegisterPage from '@/pages/User/UserRegisterPage.vue'
 import UserEditTagsPage from '@/pages/User/UserEditTagsPage.vue'
+import TeamPageTest from '@/pages/Team/TeamPageTest.vue'
 
 const routes = [
   { path: '/', component: Index },
@@ -18,6 +19,7 @@ const routes = [
   { path: '/team/add', meta:{'title': '创建队伍'}, component: TeamAddPage },
   { path: '/team/update', meta:{'title': '更新队伍信息'}, component: TeamUpdatePage },
   { path: '/team/room', name: 'TeamRoom', meta:{'title': '当前队伍'}, component: TeamRoomPage },
+  { path: '/teamTest', meta:{'title': '发现队伍'}, component: TeamPageTest },
 
   { path: '/user/update', meta:{'title': '更新个人信息'}, component: UserUpdate },
   { path: '/user', meta:{'title': '个人信息'}, component: UserPage },
